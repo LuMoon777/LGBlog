@@ -1,3 +1,4 @@
+
 body
 {
     background: #1e1f24;
@@ -11,8 +12,8 @@ body
 
 #cabecera
 {
-    background: #37488b;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    background: #4e0a4b;
+    box-shadow: 0px 2px 20px 0px rgba(41, 11, 37, 0.5);
     color: white;
     font-weight: bold;
     margin: 0;
@@ -21,8 +22,9 @@ body
 
 #cabecera #logo
 {
-    width: 20px;
+    width: 30px;
     vertical-align: middle;
+    filter: invert(1) sepia(2) hue-rotate(0deg) saturate(100%);
 }
 
 #cabecera #tagline
@@ -55,7 +57,7 @@ body
     background: #777;
     color:white;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
 
 }
 
